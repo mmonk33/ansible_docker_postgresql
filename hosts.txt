@@ -1,9 +1,9 @@
 [app]
 vm2 ansible_host=158.160.41.146
-vm3 ansible_host=158.160.41.146
+vm3 ansible_host=51.250.64.149
 
 [database]
-vm1 ansible_host=158.160.41.146 pgs_ver=15 data_directory=/mnt/postgresql
+vm1 ansible_host=158.160.49.18 pgs_ver=15 data_directory=/mnt/postgresql
 
 [web]
 vm1 pgs_ver=15 data_directory=/mnt/postgresql
